@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import Questions from './Components/Questions'
 import Result from './Components/Result'
 import Start from './Components/Start'
+import End from './Components/Start'
 
 import { QuizContext } from './Context/Quiz';
 
@@ -13,15 +14,15 @@ const App = () => {
   return (
     <>
     {
-      exit === false
+      enter === false              //exit = enter
       ?
       <>
     {
-      start === true
+      end === true                //end = start
       ?
-      <Questions />
+      <Questions />               
       :
-      <Start />
+      <End />                  //End = Start
     }
     </>
     :
