@@ -13,6 +13,14 @@ const quizzes = [
         "correct": "d"
     },
     {
+        "question": "What do we call har techno gig?",
+        "a": "Trance",
+        "b": "EDM",
+        "c": "Rave",
+        "d": "Clubbing",
+        "correct": "c"
+    },
+    {
         "question": "How hot is the surface of the sun?",
         // 'image': {photo1},
         "a": "1,233 K",
@@ -31,10 +39,10 @@ const quizzes = [
     },
     {
         "question": "What is the capital of Spain?",
-        "a": "Berlin",
-        "b": "Buenos Aires",
+        "a": "Alaska",
+        "b": "Barcelona",
         "c": "Madrid",
-        "d": "San Juan",
+        "d": "Zurich",
         "correct": "c"
     },
     {
@@ -52,6 +60,14 @@ const quizzes = [
         "c": "21.1111",
         "d": "158",
         "correct": "c"
+    },
+    {
+        "question": "Who is the long lost brother of Thor?",
+        "a": "Gamora",
+        "b": "Quill",
+        "c": "Steve rogers",
+        "d": "Loki",
+        "correct": "d"
     },
     {
         "question": "When was Mahatma Gandhi born?",
@@ -87,9 +103,9 @@ const quizzes = [
     },
     {
         "question": "When did The Avengers come out?",
-        "a": "May 2, 2008",
+        "a": "May 2, 2022",
         "b": "May 4, 2012",
-        "c": "May 3, 2013",
+        "c": "June 8, 2018",
         "d": "April 4, 2014",
         "correct": "b"
     },
