@@ -13,21 +13,21 @@ const App = () => {
   const {start, exit} = useContext(QuizContext);
   return (
     <>
-    {
-      enter === false              //exit = enter
-      ?
-      <>
-    {
-      end === true                //end = start
-      ?
-      <Questions />               
-      :
-      <End />                  //End = Start
-    }
-    </>
-    :
-      <Result />
-    }
+    const renderScreen = () => {
+  switch (screen) {
+    case "start":
+      return <Start onBegin={() => setScreen("questions")} />;
+
+    case "questions":
+      return <Questions onFinish={() => setScreen("result")} />;
+
+    case "result":
+      return <Result onRestart={() => setScreen("start")} />;
+
+    default:
+      return null;
+  }
+};
     </>
   )
 }
